@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<archs>
+    <arch id="1">
+       <!-- choose the coordinates of the first point -->
+        <p1X>2</p1X>
+        <p1Y>3</p1Y>
+        <p1Z>9</p1Z>
+        <!-- choose the coordinates of the second point -->
+        <p2X>5</p2X>
+        <p2Y>6</p2Y>
+        <p2Z>8</p2Z>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </arch>
+</archs>

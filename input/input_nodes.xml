@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<nodes>
+    <node id="1">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>2</centerX>
+        <centerY>3</centerY>
+        <centerZ>9</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id = "2">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>5</centerX>
+        <centerY>6</centerY>
+        <centerZ>8</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+        </node>
+
+    <node id="3">
+        <!-- choose spherical or cubical type -->
+        <type>cubical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>1</centerX>
+        <centerY>1</centerY>
+        <centerZ>1</centerZ>
+        <!-- choose the height of the node !-->
+        <height>6</height>
+        <!-- choose the width of the node !-->
+        <width>10</width>
+        <!-- choose the depth of the node !-->
+        <depth>6</depth>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="4">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>50</centerX>
+        <centerY>23</centerY>
+        <centerZ>29</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="5">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>11</centerX>
+        <centerY>44</centerY>
+        <centerZ>100</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="6">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>200</centerX>
+        <centerY>3</centerY>
+        <centerZ>93</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="7">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>43</centerX>
+        <centerY>111</centerY>
+        <centerZ>94</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="8">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>33</centerX>
+        <centerY>111</centerY>
+        <centerZ>99</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="9">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>2</centerX>
+        <centerY>3</centerY>
+        <centerZ>9</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="10">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>11</centerX>
+        <centerY>0</centerY>
+        <centerZ>0</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="11">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>232</centerX>
+        <centerY>31</centerY>
+        <centerZ>94</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="12">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>12</centerX>
+        <centerY>13</centerY>
+        <centerZ>19</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+
+    <node id="13">
+        <!-- choose spherical or cubical type -->
+        <type>spherical</type>
+        <!-- choose the (x,y,z) coordinates -->
+        <centerX>0</centerX>
+        <centerY>100</centerY>
+        <centerZ>403</centerZ>
+        <!-- choose the radius of the node !-->
+        <radius>2</radius>
+        <!-- choose the color of the node in capital letters !-->
+        <color>WHITE</color>
+    </node>
+</nodes>

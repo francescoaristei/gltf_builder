@@ -1,0 +1,59 @@
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+//application{mainClassName = 'InputGraphs'}
+application{mainClassName = 'MainGUI'}
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+/*task(runMain, dependsOn: 'classes', type: JavaExec) {
+    main = 'InputGraphs'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+ */
+
+jar {
+    manifest {
+        //attributes "Main-Class": "InputGraphs"
+        attributes "Main-Class": "MainGUI"
+    }
+
+    from {
+        //configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.runtimeClasspath.collect {it.isDirectory() ? it : zipTree(it) }
+    }
+
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
+}
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'de.javagl', name: 'jgltf-model', version: '2.0.0'
+    implementation group: 'de.javagl', name: 'jgltf-impl-v1', version: '2.0.0'
+    implementation group: 'de.javagl', name: 'jgltf-impl-v2', version: '2.0.0'
+    implementation group: 'commons-io', name: 'commons-io', version: '2.6'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.11.1'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.8.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.8.10'
+   // testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.0-alpha1'
+    //testImplementation group: 'org.slf4j', name: 'slf4j-nop', version: '2.0.0-alpha1'
+    testImplementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '2.0.0-alpha1'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.0-alpha1'
+    implementation 'com.google.api-client:google-api-client:1.23.0'
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+    compile 'com.google.apis:google-api-services-drive:v3-rev110-1.23.0'
+}
