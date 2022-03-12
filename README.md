@@ -73,12 +73,12 @@ by the user, to then save such graphs in a specific directory.
 Once the nodes and edges have been added by the user, the file creation is started.
 Next the process to load the model in the cloud storage service Google Drive is started, thanks to the GoogleDriveService class
 
-![Screenshot6](./glbpictures/screenshot5glb.png "Screenshot5")
+![Screenshot6](./glbpictures/screenshot6glb.png "Screenshot5")
 
 To connect the desktop app to such service we needed to download the credentials.json file.
 This file allows Google, via the OAuth 2.0 protocol, to identify the applications and the users.
 Specifically the user needs to login in his/her Google account, where it wants to load the files.
 This process is possible thanks to the Drive API.
 
-![Screenshot7](./glbpictures/screenshot6glb.png "Screenshot6")
+![Screenshot7](./glbpictures/screenshot7glb.png "Screenshot6")
 
