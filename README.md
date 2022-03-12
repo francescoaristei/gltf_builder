@@ -21,12 +21,12 @@ The application is made of a simple GUI, which, initially, allows to choose if w
 position and dimension of the nodes and of the edges of the graph; or if we want to create the model using a textual file containing
 the informations about the graph, using a simple parser.
 
-![Screenshot1](./glbpictures/screenshot1.png "Screenshot1")
+![Screenshot1](./glbpictures/screenshot1glb.png "Screenshot1")
 
 In the first case, we insert the data using the GUI implemented in the FileMaker class, which communicates the data to the class
 ModelBuilder, of the same package.
 
-![Screenshot2](./glbpictures/screenshot2.jpeg "Screenshot2")
+![Screenshot2](./glbpictures/screenshot2glb.png "Screenshot2")
 
 This, together with the other classes in the package creates the tridimensional model.
 This is possible thanks to specific classes, which, after taking the data from the GUI are able to generate tridimensional structures:
@@ -43,9 +43,9 @@ create the .glb file.
 In the second case, we upload a .txt file with the data about the graph, separated by the character '#', like position and
 dimension of the nodes and edges, using a file chooser.
 
-![Screenshot3](./glbpictures/screenshot3.png "Screenshot3")
+![Screenshot3](./glbpictures/screenshot3glb.png "Screenshot3")
 
-![Screenshot4](./glbpictures/screenshot4.png "Screenshot4")
+![Screenshot4](./glbpictures/screenshot4glb.png "Screenshot4")
 
 Then using a simple parser, implemented in the FileLoader class, the data are translated and then they are passed to the classes 
 in the model_builder package, in order to obtain the 3D model.
@@ -73,12 +73,12 @@ by the user, to then save such graphs in a specific directory.
 Once the nodes and edges have been added by the user, the file creation is started.
 Next the process to load the model in the cloud storage service Google Drive is started, thanks to the GoogleDriveService class
 
-![Screenshot5](./glbpictures/screenshot5.png "Screenshot5")
+![Screenshot5](./glbpictures/screenshot5glb.png "Screenshot5")
 
 To connect the desktop app to such service we needed to download the credentials.json file.
 This file allows Google, via the OAuth 2.0 protocol, to identify the applications and the users.
 Specifically the user needs to login in his/her Google account, where it wants to load the files.
 This process is possible thanks to the Drive API.
 
-![Screenshot6](./glbpictures/screenshot6.png "Screenshot6")
+![Screenshot6](./glbpictures/screenshot6glb.png "Screenshot6")
 
