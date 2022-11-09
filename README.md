@@ -1,6 +1,8 @@
 # gltf_builder
 Desktop application to generate a 3D model of a graph in .glb or .gltf format file. The model can be generated from an apposite GUI or writing the information about edges and nodes in a text file. 
 
+Took inspiration from [Java glTF MeshBuilder](https://github.com/chadj2/jgltf-mesh).
+
 ### 3D Model Generation
 
 The generations of the models is made via a Desktop application, written in the Java language, which, using a GUI, allows to insert
