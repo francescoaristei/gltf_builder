@@ -12,14 +12,14 @@ Specifically the nodes can have two type of shapes:
 - Spherical: In this case we need to define the coordinates of the center and of the ray
 - Parallelepipedal: In this case we need to indicate the baricenter, the height, width and depth.
 
-Regarding the edges, these are segments, so is sufficient to specify the coordinates of the extremes.
-After this, the 3D model are created, using specific Java libraries.
+Regarding the edges, these are segments, so is sufficient to specify the coordinates of the extreme points.
+After this, the 3D model is created.
 The generated file is of type .glb, the binary representation of a .gltf file (GL Transmission format).
 The file is then loaded in the Cloud storage service Google Drive, using the Google APIs.
 
 ### Software Architectures
 
-The application is made of a simple GUI, which, initially, allows to choose if we want to create a model, typing the parameters lile
+The application is made of a simple GUI, which, initially, allows to choose if we want to create a model, typing the parameters like
 position and dimension of the nodes and of the edges of the graph; or if we want to create the model using a textual file containing
 the informations about the graph, using a simple parser.
 
@@ -39,7 +39,7 @@ This is possible thanks to specific classes, which, after taking the data from t
 
 In the glTF format.
 
-These structures represent the nodes and the archs of the graph we want to visualize.
+These structures represent the nodes and the edges of the graph we want to visualize.
 So the set of classes present in the model_builder package allow the communication between the GUI and the classes needed to
 create the .glb file.
 In the second case, we upload a .txt file with the data about the graph, separated by the character '#', like position and
@@ -73,7 +73,7 @@ by the user, to then save such graphs in a specific directory.
 ### Loading in Google Drive
 
 Once the nodes and edges have been added by the user, the file creation is started.
-Next the process to load the model in the cloud storage service Google Drive is started, thanks to the GoogleDriveService class
+Next the process to load the model in the cloud storage service Google Drive is started, thanks to the GoogleDriveService class.
 
 ![Screenshot6](./glbpictures/screenshot6glb.png "Screenshot5")
 
